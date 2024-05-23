@@ -1,0 +1,54 @@
+
+build/
+DerivedData/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+*.xcscmblueprint
+*.xccheckout
+*.xcuserstate
+
+# CocoaPods
+Pods/
+Podfile.lock
+# Xcode
+*.DS_Store
+*.swp
+*.xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.idea/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# AppCode
+.idea/
+
+# Xcode automatic schemes
+xcshareddata/xcschemes/*
+
+# Other
+*.orig
+
+
+# Temporary and backup files
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata
+*.xcuserdatad
+
+# Ignore IDE preference files
+*.xccheckout
+*.xcscmblueprint
+
+# macOS specific
+*.DS_Store
+.AppleDouble
+.LSOverride
+
