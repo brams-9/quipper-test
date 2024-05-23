@@ -21,6 +21,11 @@
 		256CE3402BFE6B9000EB8174 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE33F2BFE6B8F00EB8174 /* PlaylistRepository.swift */; };
 		256CE3422BFE6C9D00EB8174 /* PlaylistRestAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3412BFE6C9D00EB8174 /* PlaylistRestAPIService.swift */; };
 		256CE3452BFE6D0800EB8174 /* PlaylistDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3442BFE6D0800EB8174 /* PlaylistDataModel.swift */; };
+		25B93E2B2BFF46B600B8AB3F /* VideoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E2A2BFF46B600B8AB3F /* VideoItemCell.swift */; };
+		25B93E2E2BFF4B6C00B8AB3F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E2D2BFF4B6C00B8AB3F /* Colors.swift */; };
+		6348F91177F710F9E8959B00 /* Pods_QuipperTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD3699892F48849A1769341 /* Pods_QuipperTestTests.framework */; };
+		E8ABC3C3A69133FAEFBACB96 /* Pods_QuipperTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891FD8E054AEB779BE2BBEA0 /* Pods_QuipperTest.framework */; };
+		F6F0B0D972D1C6984652DEF0 /* Pods_QuipperTest_QuipperTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93877D25E8385E88F56E4167 /* Pods_QuipperTest_QuipperTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D1406630473B4A31DEA4D1 /* Pods-QuipperTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTest.release.xcconfig"; path = "Target Support Files/Pods-QuipperTest/Pods-QuipperTest.release.xcconfig"; sourceTree = "<group>"; };
+		05CF290223FF1E43C0234AD8 /* Pods-QuipperTest-QuipperTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTest-QuipperTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		104D19FECAF1D73237CAEECF /* Pods-QuipperTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTest.debug.xcconfig"; path = "Target Support Files/Pods-QuipperTest/Pods-QuipperTest.debug.xcconfig"; sourceTree = "<group>"; };
+		1BF08B0A8357405C4D14D490 /* Pods-QuipperTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTestTests.debug.xcconfig"; path = "Target Support Files/Pods-QuipperTestTests/Pods-QuipperTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		256CE2FE2BFE616F00EB8174 /* QuipperTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuipperTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		256CE3012BFE616F00EB8174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		256CE3032BFE616F00EB8174 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +68,15 @@
 		256CE33F2BFE6B8F00EB8174 /* PlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepository.swift; sourceTree = "<group>"; };
 		256CE3412BFE6C9D00EB8174 /* PlaylistRestAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRestAPIService.swift; sourceTree = "<group>"; };
 		256CE3442BFE6D0800EB8174 /* PlaylistDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDataModel.swift; sourceTree = "<group>"; };
+		25B93E2A2BFF46B600B8AB3F /* VideoItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoItemCell.swift; sourceTree = "<group>"; };
+		25B93E2D2BFF4B6C00B8AB3F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		25B93E2F2BFF5A0A00B8AB3F /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B93E332BFF5D9000B8AB3F /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324A3EA4BA56C15F2B030D40 /* Pods-QuipperTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTestTests.release.xcconfig"; path = "Target Support Files/Pods-QuipperTestTests/Pods-QuipperTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		56E4CDC4F50FF562DD48EDEC /* Pods-QuipperTest-QuipperTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTest-QuipperTestUITests.release.xcconfig"; path = "Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		891FD8E054AEB779BE2BBEA0 /* Pods_QuipperTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuipperTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93877D25E8385E88F56E4167 /* Pods_QuipperTest_QuipperTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuipperTest_QuipperTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDD3699892F48849A1769341 /* Pods_QuipperTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuipperTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8ABC3C3A69133FAEFBACB96 /* Pods_QuipperTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6348F91177F710F9E8959B00 /* Pods_QuipperTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F0B0D972D1C6984652DEF0 /* Pods_QuipperTest_QuipperTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +114,8 @@
 				256CE3172BFE617300EB8174 /* QuipperTestTests */,
 				256CE3212BFE617300EB8174 /* QuipperTestUITests */,
 				256CE2FF2BFE616F00EB8174 /* Products */,
+				B9FD7CE03E82FBE1627D69E6 /* Pods */,
+				6F26B3CF922F2002813AE0A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +132,7 @@
 		256CE3002BFE616F00EB8174 /* QuipperTest */ = {
 			isa = PBXGroup;
 			children = (
+				25B93E2C2BFF4B5400B8AB3F /* Extensions */,
 				256CE3362BFE67EF00EB8174 /* Service */,
 				256CE3352BFE67DA00EB8174 /* Repository */,
 				256CE3332BFE67B800EB8174 /* Models */,
@@ -192,6 +216,7 @@
 		256CE3372BFE684E00EB8174 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				25B93E292BFF468400B8AB3F /* Cells */,
 				256CE3052BFE616F00EB8174 /* HomeScreenViewController.swift */,
 				256CE3382BFE68E000EB8174 /* HomeScreenWireFrame.swift */,
 			);
@@ -206,6 +231,47 @@
 			path = RestApiServices;
 			sourceTree = "<group>";
 		};
+		25B93E292BFF468400B8AB3F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				25B93E2A2BFF46B600B8AB3F /* VideoItemCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		25B93E2C2BFF4B5400B8AB3F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				25B93E2D2BFF4B6C00B8AB3F /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6F26B3CF922F2002813AE0A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B93E332BFF5D9000B8AB3F /* Kingfisher.framework */,
+				25B93E2F2BFF5A0A00B8AB3F /* Kingfisher.framework */,
+				891FD8E054AEB779BE2BBEA0 /* Pods_QuipperTest.framework */,
+				93877D25E8385E88F56E4167 /* Pods_QuipperTest_QuipperTestUITests.framework */,
+				EDD3699892F48849A1769341 /* Pods_QuipperTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9FD7CE03E82FBE1627D69E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104D19FECAF1D73237CAEECF /* Pods-QuipperTest.debug.xcconfig */,
+				02D1406630473B4A31DEA4D1 /* Pods-QuipperTest.release.xcconfig */,
+				05CF290223FF1E43C0234AD8 /* Pods-QuipperTest-QuipperTestUITests.debug.xcconfig */,
+				56E4CDC4F50FF562DD48EDEC /* Pods-QuipperTest-QuipperTestUITests.release.xcconfig */,
+				1BF08B0A8357405C4D14D490 /* Pods-QuipperTestTests.debug.xcconfig */,
+				324A3EA4BA56C15F2B030D40 /* Pods-QuipperTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -213,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256CE3282BFE617300EB8174 /* Build configuration list for PBXNativeTarget "QuipperTest" */;
 			buildPhases = (
+				370B43164A4810DF2A541E89 /* [CP] Check Pods Manifest.lock */,
 				256CE2FA2BFE616F00EB8174 /* Sources */,
 				256CE2FB2BFE616F00EB8174 /* Frameworks */,
 				256CE2FC2BFE616F00EB8174 /* Resources */,
+				8BA6324BA9AA18D92105406B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +298,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256CE32B2BFE617300EB8174 /* Build configuration list for PBXNativeTarget "QuipperTestTests" */;
 			buildPhases = (
+				2149F9117568D3C0009A1E59 /* [CP] Check Pods Manifest.lock */,
 				256CE3102BFE617300EB8174 /* Sources */,
 				256CE3112BFE617300EB8174 /* Frameworks */,
 				256CE3122BFE617300EB8174 /* Resources */,
@@ -248,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256CE32E2BFE617300EB8174 /* Build configuration list for PBXNativeTarget "QuipperTestUITests" */;
 			buildPhases = (
+				1ABACAB692A89BA3AB7CD226 /* [CP] Check Pods Manifest.lock */,
 				256CE31A2BFE617300EB8174 /* Sources */,
 				256CE31B2BFE617300EB8174 /* Frameworks */,
 				256CE31C2BFE617300EB8174 /* Resources */,
+				3B9525CA68139F945AD441DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -331,15 +402,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ABACAB692A89BA3AB7CD226 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuipperTest-QuipperTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2149F9117568D3C0009A1E59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuipperTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370B43164A4810DF2A541E89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuipperTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B9525CA68139F945AD441DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA6324BA9AA18D92105406B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuipperTest/Pods-QuipperTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuipperTest/Pods-QuipperTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuipperTest/Pods-QuipperTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		256CE2FA2BFE616F00EB8174 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				256CE3062BFE616F00EB8174 /* HomeScreenViewController.swift in Sources */,
+				25B93E2E2BFF4B6C00B8AB3F /* Colors.swift in Sources */,
 				256CE33E2BFE6A6C00EB8174 /* PlaylistModel.swift in Sources */,
 				256CE3452BFE6D0800EB8174 /* PlaylistDataModel.swift in Sources */,
 				256CE3422BFE6C9D00EB8174 /* PlaylistRestAPIService.swift in Sources */,
+				25B93E2B2BFF46B600B8AB3F /* VideoItemCell.swift in Sources */,
 				256CE3402BFE6B9000EB8174 /* PlaylistRepository.swift in Sources */,
 				256CE3022BFE616F00EB8174 /* AppDelegate.swift in Sources */,
 				256CE3042BFE616F00EB8174 /* SceneDelegate.swift in Sources */,
@@ -508,15 +684,21 @@
 		};
 		256CE3292BFE617300EB8174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104D19FECAF1D73237CAEECF /* Pods-QuipperTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(SRCROOT)",
+					"$(inherited)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QuipperTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -538,6 +720,7 @@
 		};
 		256CE32A2BFE617300EB8174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02D1406630473B4A31DEA4D1 /* Pods-QuipperTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -547,6 +730,7 @@
 				INFOPLIST_FILE = QuipperTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
@@ -568,6 +752,7 @@
 		};
 		256CE32C2BFE617300EB8174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BF08B0A8357405C4D14D490 /* Pods-QuipperTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -587,6 +772,7 @@
 		};
 		256CE32D2BFE617300EB8174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324A3EA4BA56C15F2B030D40 /* Pods-QuipperTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -606,6 +792,7 @@
 		};
 		256CE32F2BFE617300EB8174 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CF290223FF1E43C0234AD8 /* Pods-QuipperTest-QuipperTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -623,6 +810,7 @@
 		};
 		256CE3302BFE617300EB8174 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E4CDC4F50FF562DD48EDEC /* Pods-QuipperTest-QuipperTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

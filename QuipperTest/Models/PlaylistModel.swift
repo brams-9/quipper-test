@@ -7,4 +7,19 @@
 
 import Foundation
 
-class PlaylistModel {}
+struct PlaylistModel {
+    var title: String?
+    var presenterName: String?
+    var description: String?
+    var thumbnailURL: URL?
+    var videoURL: URL?
+    var videoDuration: Int?
+    
+    func formatMilliseconds() -> String {
+        let seconds = (videoDuration ?? 0) / 1000
+        let minutes = seconds / 60
+        let remainingSeconds = seconds % 60
+        
+        return "\(minutes) minutes \(remainingSeconds) seconds"
+    }
+}

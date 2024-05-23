@@ -8,12 +8,27 @@
 import Foundation
 
 protocol HomeScreenViewModelProtocol {
-    func getVideoPlaylist()
+    var onDataUpdate: (() -> Void)? { get set }
+    var videoPlaylists: [PlaylistModel] { get }
+    func getVideoPlaylist() async
 }
 
 class HomeScreenViewModel: HomeScreenViewModelProtocol {
-    func getVideoPlaylist() {
-        
+    private var playlistRepository: PlaylistRepositoryProtocol
+    var onDataUpdate: (() -> Void)?
+
+    var videoPlaylists: [PlaylistModel] = [] {
+        didSet {
+            onDataUpdate?()
+        }
+    }
+    
+    init(playlistRepository: PlaylistRepositoryProtocol) {
+        self.playlistRepository = playlistRepository
+    }
+    
+    func getVideoPlaylist() async {
+        videoPlaylists = await playlistRepository.fetchPlaylistData() ?? []
     }
     
 }
