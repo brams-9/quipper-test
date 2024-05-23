@@ -116,6 +116,11 @@ extension HomeScreenViewController: UITableViewDataSource, UITableViewDelegate {
         guard let viewCell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath) as? VideoItemCell else { return UITableViewCell() }
         
         viewCell.setData(videoItemData: videoPlaylist[indexPath.row])
+        
         return viewCell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.navigationController?.pushViewController(VideoDetailWiframe().getViewController(playlistData: videoPlaylist[indexPath.row]), animated: true)
     }
 }
