@@ -43,7 +43,7 @@ class HomeScreenViewController: UIViewController {
         videoTableView.register(VideoItemCell.self, forCellReuseIdentifier: "CellID")
         videoTableView.dataSource = self
         videoTableView.delegate = self
-//        videoTableView.separatorStyle = .none
+        videoTableView.separatorStyle = .none
         videoTableView.translatesAutoresizingMaskIntoConstraints = false
 
 

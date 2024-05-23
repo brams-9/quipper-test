@@ -9,11 +9,14 @@ import Foundation
 import UIKit
 
 class HomeScreenWiframe {
+    private var playlistRestAPIService: PlaylistRestAPIServiceProtocol
     private var playlistRepository: PlaylistRepositoryProtocol
     private var homeScreenViewModel: HomeScreenViewModelProtocol
     private var homeScreenViewController: UIViewController
+    
     init() {
-        playlistRepository = PlaylistRepository()
+        playlistRestAPIService = PlaylistRestAPIService()
+        playlistRepository = PlaylistRepository(playlistRestAPIService: playlistRestAPIService)
         homeScreenViewModel = HomeScreenViewModel(playlistRepository: playlistRepository)
         homeScreenViewController = HomeScreenViewController(viewModel: homeScreenViewModel)
     }
