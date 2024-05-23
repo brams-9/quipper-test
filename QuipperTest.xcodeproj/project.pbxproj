@@ -12,7 +12,7 @@
 		256CE3062BFE616F00EB8174 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3052BFE616F00EB8174 /* HomeScreenViewController.swift */; };
 		256CE30B2BFE617200EB8174 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256CE30A2BFE617200EB8174 /* Assets.xcassets */; };
 		256CE30E2BFE617200EB8174 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256CE30C2BFE617200EB8174 /* LaunchScreen.storyboard */; };
-		256CE3192BFE617300EB8174 /* QuipperTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3182BFE617300EB8174 /* QuipperTestTests.swift */; };
+		256CE3192BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3182BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift */; };
 		256CE3232BFE617300EB8174 /* QuipperTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3222BFE617300EB8174 /* QuipperTestUITests.swift */; };
 		256CE3252BFE617300EB8174 /* QuipperTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3242BFE617300EB8174 /* QuipperTestUITestsLaunchTests.swift */; };
 		256CE3392BFE68E000EB8174 /* HomeScreenWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3382BFE68E000EB8174 /* HomeScreenWireFrame.swift */; };
@@ -61,7 +61,7 @@
 		256CE30D2BFE617200EB8174 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		256CE30F2BFE617200EB8174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		256CE3142BFE617300EB8174 /* QuipperTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipperTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		256CE3182BFE617300EB8174 /* QuipperTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipperTestTests.swift; sourceTree = "<group>"; };
+		256CE3182BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRestAPIServiceTests.swift; sourceTree = "<group>"; };
 		256CE31E2BFE617300EB8174 /* QuipperTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuipperTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		256CE3222BFE617300EB8174 /* QuipperTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipperTestUITests.swift; sourceTree = "<group>"; };
 		256CE3242BFE617300EB8174 /* QuipperTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuipperTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -156,7 +156,7 @@
 		256CE3172BFE617300EB8174 /* QuipperTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				256CE3182BFE617300EB8174 /* QuipperTestTests.swift */,
+				256CE3182BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift */,
 			);
 			path = QuipperTestTests;
 			sourceTree = "<group>";
@@ -548,7 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256CE3192BFE617300EB8174 /* QuipperTestTests.swift in Sources */,
+				256CE3192BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

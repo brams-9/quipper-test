@@ -17,15 +17,19 @@ enum PlaylistServiceError: Error {
 }
 
 class PlaylistRestAPIService: PlaylistRestAPIServiceProtocol {
+    var urlSession: URLSession
+    init(urlSession: URLSession) {
+        self.urlSession = urlSession
+        
+    }
     func fetchPlaylistData() async -> Result<[PlaylistDataModel], Error> {
         let urlString = "https://quipper.github.io/native-technical-exam/playlist.json"
-                
                 guard let url = URL(string: urlString) else {
                     return .failure(PlaylistServiceError.invalidURL)
                 }
                 
                 do {
-                    let (data, _) = try await URLSession.shared.data(from: url)
+                    let (data, _) = try await urlSession.data(from: url)
                     
                     let playlistData = try JSONDecoder().decode([PlaylistDataModel].self, from: data)
                     

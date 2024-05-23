@@ -15,7 +15,7 @@ class HomeScreenWiframe {
     private var homeScreenViewController: UIViewController
     
     init() {
-        playlistRestAPIService = PlaylistRestAPIService()
+        playlistRestAPIService = PlaylistRestAPIService(urlSession: URLSession.shared)
         playlistRepository = PlaylistRepository(playlistRestAPIService: playlistRestAPIService)
         homeScreenViewModel = HomeScreenViewModel(playlistRepository: playlistRepository)
         homeScreenViewController = HomeScreenViewController(viewModel: homeScreenViewModel)
