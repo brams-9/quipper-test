@@ -12,7 +12,7 @@ import XCTest
 final class PlaylistRepositoryTests: XCTestCase {
 
     // Mock PlaylistRestAPIService for testing purposes
-    class MockPlaylistRestAPIService: PlaylistRestAPIServiceProtocol {
+    fileprivate class MockPlaylistRestAPIService: PlaylistRestAPIServiceProtocol {
         var shouldReturnSuccessScenario: Bool
         
         init(shouldReturnSuccessScenario: Bool = true) {
