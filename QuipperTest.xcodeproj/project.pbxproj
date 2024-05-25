@@ -26,6 +26,9 @@
 		25B93E392BFF926400B8AB3F /* VideoDetailWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E382BFF926400B8AB3F /* VideoDetailWireframe.swift */; };
 		25B93E3B2BFF92B600B8AB3F /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E3A2BFF92B600B8AB3F /* VideoDetailViewController.swift */; };
 		25B93E3D2BFF954500B8AB3F /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E3C2BFF954500B8AB3F /* CustomImageView.swift */; };
+		25B93E3F2BFFB18D00B8AB3F /* PlaylistRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B93E3E2BFFB18D00B8AB3F /* PlaylistRepositoryTests.swift */; };
+		25C295E82C01D49C00B88946 /* PlaylistDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256CE3442BFE6D0800EB8174 /* PlaylistDataModel.swift */; };
+		25C295EA2C01DB5500B88946 /* HomeScreenViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C295E92C01DB5500B88946 /* HomeScreenViewModelTests.swift */; };
 		6348F91177F710F9E8959B00 /* Pods_QuipperTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD3699892F48849A1769341 /* Pods_QuipperTestTests.framework */; };
 		E8ABC3C3A69133FAEFBACB96 /* Pods_QuipperTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891FD8E054AEB779BE2BBEA0 /* Pods_QuipperTest.framework */; };
 		F6F0B0D972D1C6984652DEF0 /* Pods_QuipperTest_QuipperTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93877D25E8385E88F56E4167 /* Pods_QuipperTest_QuipperTestUITests.framework */; };
@@ -78,6 +81,8 @@
 		25B93E382BFF926400B8AB3F /* VideoDetailWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailWireframe.swift; sourceTree = "<group>"; };
 		25B93E3A2BFF92B600B8AB3F /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 		25B93E3C2BFF954500B8AB3F /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		25B93E3E2BFFB18D00B8AB3F /* PlaylistRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepositoryTests.swift; sourceTree = "<group>"; };
+		25C295E92C01DB5500B88946 /* HomeScreenViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModelTests.swift; sourceTree = "<group>"; };
 		324A3EA4BA56C15F2B030D40 /* Pods-QuipperTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTestTests.release.xcconfig"; path = "Target Support Files/Pods-QuipperTestTests/Pods-QuipperTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		56E4CDC4F50FF562DD48EDEC /* Pods-QuipperTest-QuipperTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuipperTest-QuipperTestUITests.release.xcconfig"; path = "Target Support Files/Pods-QuipperTest-QuipperTestUITests/Pods-QuipperTest-QuipperTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		891FD8E054AEB779BE2BBEA0 /* Pods_QuipperTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuipperTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				256CE3182BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift */,
+				25B93E3E2BFFB18D00B8AB3F /* PlaylistRepositoryTests.swift */,
+				25C295E92C01DB5500B88946 /* HomeScreenViewModelTests.swift */,
 			);
 			path = QuipperTestTests;
 			sourceTree = "<group>";
@@ -549,6 +556,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				256CE3192BFE617300EB8174 /* PlaylistRestAPIServiceTests.swift in Sources */,
+				25C295EA2C01DB5500B88946 /* HomeScreenViewModelTests.swift in Sources */,
+				25B93E3F2BFFB18D00B8AB3F /* PlaylistRepositoryTests.swift in Sources */,
+				25C295E82C01D49C00B88946 /* PlaylistDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
